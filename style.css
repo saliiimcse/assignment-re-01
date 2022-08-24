@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+body{
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    margin-right: 0px;
+    padding-top: 0px;
+    background-color: #E2E2E2;
+}
+
+.top-banner{
+    width: 100%;
+    background-image: url(ukrainwar.jpg);
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    -webkit-text-stroke: 0.2px rgb(223, 118, 57);
+    font-weight: bold;
+    text-align: center;
+    height: 500px;
+    background-position: center;
+    background-position-y: top;
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.donate-section{
+    text-align: center;
+}
+.payment-amount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.amount{
+    
+    height: 100px;
+    width: 100px;
+    background-color: azure;
+    margin-right: 50px;
+    border-radius: 10px;
+    padding-top: 50%;   
+}
+#defalt{
+    border: 3px solid green;
+    color: green;
+}
+.plan-section{
+  text-align: center;
+
+}
+.plan-list{
+    display: flex;
+    justify-content: center;
+   
+}
+.plan{
+    height: 300px;
+    width: 250px;
+    background-color: gray;
+    margin-right: 50px;
+    border-radius: 10px;
+    padding: 1px;
+}
+#plan-1{
+    background-color: #4F9DA6;
+}
+#plan-2{
+    background-color: #FF5959;
+}
+#plan-3{
+    background-color: aquamarine;
+}
+#plan-1 img{
+    height: 50px;
+    width: 40px;
+}
+#plan-2 img{
+    height: 50px;
+    width: 40px;
+}
+#plan-3 img{
+    height: 50px;
+    width: 40px;
+}
+.contact{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+.subscribe{
+    width: 800px;
+    height: 200px;
+    background-color: #FFF4D6;
+    border: 1px solid orange;
+    border-radius: 20px;
+    margin-left: 21%;
+
+    
+}
+.button{
+    margin-top: 12%;
+}
+button{
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+    width: 100px;
+}
+.app{
+    text-align: center;
+}
+.dwn-app{
+    display: flex;
+    align-items: center;
+   
+    height: 100px;
+    width: 80px;
+    padding-left: 42%;
+}
+.app-icon{
+    margin-right: 20px;
+}
+footer{
+    background-color: black;
+    color: azure;
+    text-align: center;
+    height: 100px;
+}
